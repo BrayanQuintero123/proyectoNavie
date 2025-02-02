@@ -6,7 +6,7 @@ from pathlib import Path
 data_path = Path("data/")
 
 # Asegurar que la ruta es correcta usando Path()
-dataset_path = Path(r"C:\Users\opera\OneDrive\Escritorio\Importante\Computer vision\ProyectoNaive\archive.zip")  # <- Se corrige la barra invertida
+dataset_path = Path(r"C:\Users\opera\OneDrive\Documentos\GitHub\proyectoNavie\archive.zip")  # <- Se corrige la barra invertida
 
 # If the image folder doesn't exist, download it and prepare it...
 if data_path.is_dir():
